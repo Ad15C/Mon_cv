@@ -5,7 +5,39 @@
     src: url(./Lato/AnyConv.com__Lato-Bold.woff), url(./Lato/AnyConv.com__Lato-Italic.woff),url(./Lato/AnyConv.com__Lato-Regular.woff);
 }
 
+body{
+    width: 1160px;
+    display: center;
+}
 
+header{
+    background-color: #782221;
+}
+
+figure {
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    box-shadow: 0 0 15px lightgray;
+}
+
+h1{
+    font-family: 'Lato';
+    src: url(./Lato/AnyConv.com__Lato-Regular.woff);
+    color: white;
+}
+
+h3{
+    font-family: 'Lato';
+    src: url(./Lato/AnyConv.com__Lato-Regular.woff);
+    font-size: small;
+    color: white;
+}
 
 
 
