@@ -2,12 +2,13 @@
 
 @font-face{
     font-family: 'Lato';
-    src: url(./Lato/AnyConv.com__Lato-Bold.woff), url(./Lato/AnyConv.com__Lato-Italic.woff),url(./Lato/AnyConv.com__Lato-Regular.woff);
+    src: url(./Lato/Lato-Thin_1.woff), url(./Lato/Lato-Regular_1.woff), url(./Lato/Lato-Italic_1.woff), url(./Lato/Lato-Bold.woff);
 }
 
 body{
     width: 1160px;
-    display: center;
+    margin-left: 0.5em;
+    justify-self: center;
 }
 
 header{
@@ -15,26 +16,28 @@ header{
 }
 
 figure {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 img {
-    width: 75%;
-    height: 75%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-    box-shadow: 0 0 15px lightgray;
+    box-shadow: 0 0 15px #dbc2a4;
+    justify-content: center;
+    cursor: zoom-in;
 }
 
 h1{
     font-family: 'Lato';
-    src: url(./Lato/AnyConv.com__Lato-Regular.woff);
+    src: url(./Lato/Lato-Thin_1.woff);
     color: white;
 }
 
 h3{
     font-family: 'Lato';
-    src: url(./Lato/AnyConv.com__Lato-Regular.woff);
+    src: url(./Lato/Lato-Thin_1.woff);
     font-size: small;
     color: white;
 }
