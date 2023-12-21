@@ -57,7 +57,7 @@ h3:hover{
     border-right: 5px solid #782221;
 }
 
-h4{
+h4,h5{
     color: #2c1d27;
 }
 
@@ -141,6 +141,7 @@ footer{
 
 
 .Networks{
+    width: 50px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -149,18 +150,6 @@ footer{
     padding-right: 110px;
     margin-left: 300px;
     margin-right: 110px; 
-}
-
-.linkedin{
-    width: 100%;
-}
-
-.twitter{
-    width: 100%;
-}
-
-.github{
-    width: 100%;
 }
 
 .Bas_Page{
