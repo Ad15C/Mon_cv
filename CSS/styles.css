@@ -97,6 +97,12 @@ main{
     border-right-color: #2c1d27 ;
 }
 
+section{
+    background-color: white;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
 aside{
     @font-face {
         font-family: 'Raleway';
@@ -107,7 +113,6 @@ aside{
     background-color: #782221;
     justify-content: space-between;
     flex-direction: column;
-    width: 50%;
     margin-right: 5%;
     color: white;
     text-align: justify;
@@ -135,13 +140,6 @@ p{
         font-display: swap;
         src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCAIT5lu.woff2);
 }
-
-section{
-    background-color: white;
-    justify-content:space-between;
-    flex-direction: column;  
-}
-
 
 .Expériences_Professionnelles{
     @font-face {
