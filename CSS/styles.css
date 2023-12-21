@@ -82,12 +82,12 @@ a{
 }
 
 main{
+    width: 1160px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     align-content: center;
     background-color: #782221;
-    width: 1160px;
     border-right: 2px solid;
     border-right-color: #2c1d27 ;
 }
