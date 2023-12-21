@@ -15,6 +15,7 @@ header{
     margin-left: 15%;
     margin-top: 0%;
     margin-bottom: 0%;
+    padding: 0%;
 }
 
 figure{
@@ -22,7 +23,7 @@ figure{
     height: 150px;
 }
 
-img{
+.photo{
     width: 70%;
     height: 70%;
     margin-top: 30px;
@@ -53,6 +54,7 @@ h3{
     background-color: #dbc2a4;
     border-left: 5px solid;
     border-left-color: #782221;
+    
 }
 
 h3:hover{
@@ -68,6 +70,7 @@ nav{
     background-color: #2c1d27;
     margin-left: 15%;
     width: 1160px;
+    height: 100px;
     font-family: 'lato',sans-serif;
     src: url(./Lato/Lato-Italic_1.woff);
     color: white;
@@ -92,6 +95,8 @@ main{
     background-color: #782221;
     margin-left: 15%;
     width: 1160px;
+    border-right: 2px solid;
+    border-right-color: #2c1d27 ;
 }
 
 aside{
@@ -131,11 +136,6 @@ section{
     
 }
 
-footer{
-    background-color: #782221;
-    margin-left: 15%;
-    width: 1160px;
-}
 
 .Expériences_Professionnelles{
     font-family: 'raleway', sans-serif;
@@ -145,6 +145,40 @@ footer{
     font-family: 'raleway', sans-serif;
     src: local(raleway);
 }
+
+footer{
+    background-color: #782221;
+    margin-left: 15%;
+    width: 1160px;
+    height: 100px;
+    color: white;
+    font-family: 'raleway', sans-serif;
+    src: local(raleway);
+    display: flex;
+    justify-content: center;
+}
+
+.Networks{
+    width: 30px;
+}
+
+.linkedin{
+    width: 100%;
+}
+
+.twitter{
+    width: 100%;
+}
+
+.github{
+    width: 100%;
+
+}
+
+
+
+
+
 
 
 
