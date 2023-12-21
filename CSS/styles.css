@@ -155,11 +155,19 @@ footer{
     font-family: 'raleway', sans-serif;
     src: local(raleway);
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+   
 }
 
+
 .Networks{
-    width: 30px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    
 }
 
 .linkedin{
@@ -174,6 +182,8 @@ footer{
     width: 100%;
 
 }
+
+
 
 
 
