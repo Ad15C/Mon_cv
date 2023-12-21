@@ -49,12 +49,19 @@ h2{
 }
 
 h3{
-    font-family: 'lato', sans-serif;
-    src: url(./Lato/Lato-Bold.woff);
     color: #2c1d27;
     background-color: #dbc2a4;
     border-left: 5px solid;
     border-left-color: #782221;
+}
+
+h3:hover{
+    border-right-color: #2c1d27;
+    border-right: 5px solid;
+}
+
+h4{
+    color: #2c1d27;
 }
 
 nav{
@@ -67,31 +74,49 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 a{
     text-decoration: none;
+    font-style: italic;
+    font-family: 'lato', sans-serif;
+    src: url(./Lato/Lato-Thin_1.woff);
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+    background-color: #782221;
+    margin-left: 15%;
+    width: 1160px;
+}
 
 aside{
+    font-family: 'Raleway', sans-serif;
+    src: local(Raleway);
+    font-style: bold;
     background-color: #782221;
-    display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    margin-left: 15%;
-    width: 386px;
+    width: 50%;
+    margin-right: 5%;
+    color: white;
+    text-align: justify;
+
 }
 
-section{
-    background-color: white;
-    width: 780px;
-    justify-content: right ;
+p{
+    text-indent: 3em;
 }
 
-h4{
-    font-family: 'lato', sans-serif;
-    src: url(./Lato/Lato-Bold.woff);
-    color: #2c1d27;
+.aside_li{
+    color:white;
+    font-family: 'raleway', sans-serif;
+    src: local(raleway);
+    
 }
 
 p{
@@ -99,13 +124,26 @@ p{
     src: local(Raleway);
 }
 
-footer{
-    background-color: #782221;
-    height: 100px;
+section{
+    background-color: white;
+    justify-content:space-between;
+    flex-direction: column;
+    
 }
 
-.img_Linkedin{
+footer{
+    background-color: #782221;
+    margin-left: 15%;
+    width: 1160px;
+}
 
+.Expériences_Professionnelles{
+    font-family: 'raleway', sans-serif;
+    src: local(raleway);
+}
+.Compétences{
+    font-family: 'raleway', sans-serif;
+    src: local(raleway);
 }
 
 
