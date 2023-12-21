@@ -85,8 +85,6 @@ main{
     align-items: flex-start;
     align-content: center;
     background-color: #782221;
-    margin-left: 15%;
-    width: 1160px;
     border-right: 2px solid;
     border-right-color: #2c1d27 ;
 }
@@ -153,18 +151,6 @@ footer{
     padding-right: 110px;
     margin-left: 300px;
     margin-right: 110px; 
-}
-
-.linkedin{
-    width: 100%;
-}
-
-.twitter{
-    width: 100%;
-}
-
-.github{
-    width: 100%;
 }
 
 .Bas_Page{
