@@ -35,14 +35,12 @@ figure{
 
 h1{
     font-family: 'Lato', sans-serif;
-    src: url(./Lato/Lato-Regular.ttf) ;
     color: white;
     margin-left: 490px;
 }
 
 h2{
     font-family: 'Lato', sans-serif;
-    src: url(./Lato/Lato-Regular.ttf);
     font-size: small;
     color: white;
     margin-left: 525px;
@@ -77,16 +75,17 @@ nav{
 a{
     text-decoration: none;
     font-style: italic;
-    font-family: 'Lato', sans-serif;
-    src: url(./Lato/Lato-Regular.ttf);
+    font-family: 'lato', sans-serif;
 }
 
 main{
+    width: 1160px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     align-content: center;
     background-color: #782221;
+    margin-left: 15%;
     width: 1160px;
     border-right: 2px solid;
     border-right-color: #2c1d27 ;
