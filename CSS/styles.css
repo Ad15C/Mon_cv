@@ -2,7 +2,7 @@
 
 @font-face{
     font-family: 'Lato';
-    src: url(./Lato/Lato-Thin_1.woff), url(./Lato/Lato-Regular_1.woff), url(./Lato/Lato-Italic_1.woff), url(./Lato/Lato-Bold.woff);
+    src: url(./Lato/Lato-Regular.ttf),url(./Lato/Lato-Bold.ttf), url(./Lato/Lato-Italic.ttf);
 }
 
 body{
@@ -34,15 +34,15 @@ figure{
 }
 
 h1{
-    font-family: 'lato', sans-serif;
-    src: url(./Lato/Lato-Thin_1.woff);
+    font-family: 'Lato', sans-serif;
+    src: url(./Lato/Lato-Regular.ttf) ;
     color: white;
     margin-left: 490px;
 }
 
 h2{
-    font-family: 'lato', sans-serif;
-    src: url(./Lato/Lato-Thin_1.woff);
+    font-family: 'Lato', sans-serif;
+    src: url(./Lato/Lato-Regular.ttf);
     font-size: small;
     color: white;
     margin-left: 525px;
@@ -53,12 +53,11 @@ h3{
     color: #2c1d27;
     background-color: #dbc2a4;
     border-left: 5px solid;
-    border-left-color: #782221;
-    
+    border-left-color: #782221;   
 }
 
 h3:hover{
-    border-right-color: #2c1d27;
+    border-right-color: #782221;
     border-right: 5px solid;
 }
 
@@ -72,19 +71,18 @@ nav{
     width: 1160px;
     height: 100px;
     font-family: 'lato',sans-serif;
-    src: url(./Lato/Lato-Italic_1.woff);
+    src: url(./Lato/Lato-Italic.ttf);
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 a{
     text-decoration: none;
     font-style: italic;
     font-family: 'lato', sans-serif;
-    src: url(./Lato/Lato-Thin_1.woff);
+    src: url(./Lato/Lato-Regular.ttf);
 }
 
 main{
@@ -100,9 +98,12 @@ main{
 }
 
 aside{
-    font-family: 'Raleway', sans-serif;
-    src: local(Raleway);
-    font-style: bold;
+    @font-face {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCAIT5lu.woff2);
     background-color: #782221;
     justify-content: space-between;
     flex-direction: column;
@@ -110,7 +111,6 @@ aside{
     margin-right: 5%;
     color: white;
     text-align: justify;
-
 }
 
 p{
@@ -118,46 +118,63 @@ p{
 }
 
 .aside_li{
-    color:white;
-    font-family: 'raleway', sans-serif;
-    src: local(raleway);
-    
+    @font-face {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCAIT5lu.woff2);
+        color:white;    
 }
 
 p{
-    font-family: 'Raleway', sans-serif;
-    src: local(Raleway);
+    @font-face {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCAIT5lu.woff2);
 }
 
 section{
     background-color: white;
     justify-content:space-between;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 
 .Expériences_Professionnelles{
-    font-family: 'raleway', sans-serif;
-    src: local(raleway);
+    @font-face {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCAIT5lu.woff2);
 }
 .Compétences{
-    font-family: 'raleway', sans-serif;
-    src: local(raleway);
+    @font-face {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCAIT5lu.woff2);
 }
 
 footer{
+    @font-face {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCAIT5lu.woff2);
     background-color: #782221;
     margin-left: 15%;
     width: 1160px;
     height: 100px;
     color: white;
-    font-family: 'raleway', sans-serif;
-    src: local(raleway);
     display: flex;
     flex-direction: row;
     align-items: center;
-   
 }
 
 
@@ -166,8 +183,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    align-content: space-between;
-    
+    align-content: space-between; 
 }
 
 .linkedin{
@@ -180,7 +196,6 @@ footer{
 
 .github{
     width: 100%;
-
 }
 
 
