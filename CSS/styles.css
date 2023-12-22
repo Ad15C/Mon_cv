@@ -61,18 +61,27 @@ h4,h5{
     color: #2c1d27;
 }
 
+dl{
+    color: #2c1d27;
+    font-family: 'Raleway';
+}
+
 h6{
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav{
     background-color: #2c1d27;
     width: 1160px;
     font-family: 'Lato',sans-serif;
+    font-style: italic;
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: baseline;   
 }
 
 a{
@@ -120,8 +129,11 @@ p{
     font-family: 'Raleway';
 }
 
+
+
+
 .aside_li{
-    color:#white;    
+    color: white;   
 }
 
 .Expériences_Professionnelles{
@@ -139,19 +151,16 @@ footer{
     height: 100px;
     color: white;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    align-content: center ;
 }
 
 
-.Networks{
-    width: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    align-content: space-between; 
-    padding-left: 110px;
-    padding-right: 110px;
-    margin-left: 300px;
-    margin-right: 110px; 
+footer img{
+    width: 30px;
+    height:30px;
+}
+
+footer img:hover{
+    opacity: 0.3;
 }
