@@ -2,7 +2,23 @@
 
 @font-face{
     font-family: 'Lato';
-    src: url(./Lato/Lato-Regular.ttf),url(./Lato/Lato-Bold.ttf), url(./Lato/Lato-Italic.ttf);
+    src: url(./Lato/Lato-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(./Lato/Lato-Bold.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(./Lato/Lato-Italic.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400; 
 }
 
 html{
@@ -17,6 +33,7 @@ header{
     width: 1160px;
     background-color: #782221;
 }
+
 
 figure{
     width: 150px;
@@ -36,14 +53,23 @@ figure{
 h1{
     font-family: 'Lato', sans-serif;
     color: white;
-    margin-left: 490px;
 }
 
 h2{
     font-family: 'Lato', sans-serif;
     color: white;
-    margin-left: 525px;
-    padding-bottom: 20px;
+}
+
+address{
+   background-color: #2c1d27;
+    width: 1160px;
+    font-family: 'Lato',sans-serif;
+    font-style: italic;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;   
+    
 }
 
 h3{
@@ -57,7 +83,7 @@ h3:hover{
     border-right: 5px solid #782221;
 }
 
-h4,h5{
+h4{
     color: #2c1d27;
 }
 
@@ -71,17 +97,6 @@ h6{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-nav{
-    background-color: #2c1d27;
-    width: 1160px;
-    font-family: 'Lato',sans-serif;
-    font-style: italic;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;   
 }
 
 a{
@@ -136,11 +151,11 @@ p{
     color: white;   
 }
 
-.Expériences_Professionnelles{
+.Experiences_Professionnelles{
     font-family: 'Raleway', sans-serif;
 }
 
-.Compétences{
+.Competences{
     font-family: 'Raleway', sans-serif;
 }
 
@@ -159,8 +174,10 @@ footer{
 footer img{
     width: 30px;
     height:30px;
+    padding-left: 20px;
+    display: inline-flex;
 }
 
 footer img:hover{
-    opacity: 0.3;
+    opacity: 0.2;
 }
