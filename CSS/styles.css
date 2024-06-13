@@ -165,9 +165,11 @@ footer{
     width: 1160px;
     height: 100px;
     color: white;
-    display: flex;
+    display: inline-flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center ;
+    align-items: center ;
+    justify-items: center;
 }
 
 
@@ -175,7 +177,7 @@ footer img{
     width: 30px;
     height:30px;
     padding-left: 20px;
-    display: inline-flex;
+    padding-top: 30px;
 }
 
 footer img:hover{
