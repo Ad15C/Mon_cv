@@ -53,11 +53,15 @@ figure{
 h1{
     font-family: 'Lato', sans-serif;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 h2{
     font-family: 'Lato', sans-serif;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 address{
